@@ -1394,3 +1394,154 @@ body{
         word-break: break-word;
     }
 }
+/* SERVICES PAGE MOBILE FIX */
+
+@media (max-width: 768px){
+
+    /* Service Grid */
+
+    #service-grid{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 20px;
+        margin: 40px auto;
+    }
+
+    .service-card{
+        width: 100%;
+        max-width: 100%;
+        padding: 25px 20px;
+    }
+
+    .service-card h2{
+        font-size: 22px;
+    }
+
+    .service-card li{
+        font-size: 18px;
+    }
+
+    .price{
+        font-size: 20px;
+    }
+
+    /* Additional Services */
+
+    #additional-services{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0 20px;
+        margin: 40px auto;
+    }
+
+    .mini-service-card{
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* Background Screening */
+
+    #background-screening{
+        padding: 60px 20px;
+    }
+
+    #background-screening h2{
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .screening-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .screening-card{
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* Packages */
+
+    #packages{
+        padding: 60px 20px;
+    }
+
+    #packages h2{
+        font-size: 36px;
+    }
+
+    .package-grid{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .package-card{
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .featured{
+        transform: none;
+    }
+
+    /* Why Us */
+
+    #why-us{
+        padding: 60px 20px;
+    }
+
+    #why-us h2{
+        font-size: 36px;
+    }
+
+    .why-grid{
+        grid-template-columns: 1fr;
+    }
+
+    /* Mobile Services */
+
+    #mobile-services{
+        padding: 60px 20px;
+    }
+
+    #mobile-services h2{
+        font-size: 36px;
+    }
+
+    .mobile-grid{
+        grid-template-columns: 1fr;
+    }
+
+    /* CTA */
+
+    #cta{
+        padding: 60px 20px;
+    }
+
+    #cta h2{
+        font-size: 36px;
+    }
+
+    #cta p{
+        font-size: 18px;
+    }
+
+    /* Navbar */
+
+    #navbar{
+        padding: 15px;
+    }
+
+    #nav-logo{
+        width: 90px;
+    }
+
+    .nav-links{
+        gap: 15px;
+    }
+
+    .nav-links a{
+        font-size: 16px;
+    }
+}
