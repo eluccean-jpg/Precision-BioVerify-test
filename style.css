@@ -93,6 +93,40 @@ body{
 .service-card a:hover{
     text-decoration: underline;
 }
+/* PARTNERS SECTION */
+
+#partners{
+    background: white;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+#partners h2{
+    color: #4a0448;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.partners-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.partners-list div{
+    background: #ffffff;
+    color: #4a0448;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-radius: 15px;
+    border-top: 5px solid #4a0448;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    min-width: 250px;
+}
 #navbar {
     background-color: white;
     height: 130px;
