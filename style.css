@@ -1761,3 +1761,18 @@ body{
     border-radius: 12px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
+@media (max-width: 768px){
+
+    #promotions{
+        padding: 50px 15px;
+    }
+
+    #promotions h2{
+        font-size: 2rem;
+    }
+
+    .promo-grid{
+        gap: 20px;
+    }
+
+}
